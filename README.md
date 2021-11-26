@@ -227,7 +227,7 @@ WHERE RowNumber > 1
 ```
 ---
 ```sql
- -- 7. Deleting Unused Columns (Like PropertyAddress & OwnerAddress as we have the splits)
+-- 8. Deleting Unused Columns (Like PropertyAddress & OwnerAddress as we have the splits)
 
 ALTER TABLE Portfolio_Project..NashvilleHousing
 DROP COLUMN PropertyAddress, OwnerAddress
