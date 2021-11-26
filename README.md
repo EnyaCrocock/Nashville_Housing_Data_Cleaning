@@ -82,7 +82,7 @@ WHERE a.PropertyAddress IS NULL
 ![image](https://user-images.githubusercontent.com/94410139/143587037-a1b48e62-874b-40d5-9df9-3d152e6ba51d.png)
 
  ```sql
- -- Populating a.PropertyAddress with b.PropertyAdress
+ -- Populating a.PropertyAddress with b.PropertyAddress
 
 UPDATE a
 SET a.PropertyAddress = b.PropertyAddress
