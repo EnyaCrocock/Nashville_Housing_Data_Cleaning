@@ -16,7 +16,7 @@
 - Data Cleaning = Microsoft SQL Server. 
 
 #### 🔗 Links
-- SQL Code =
+- SQL Code = [Click Here](https://github.com/EnyaCrocock/Nashville_Housing_Data_Cleaning/blob/main/Nashville_data_cleaning_queries.sql)
 
 ---
 
