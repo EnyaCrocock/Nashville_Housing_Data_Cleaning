@@ -217,10 +217,9 @@ WHERE RowNumber > 1
 
 WITH RowNumCTE AS
 (
-	SELECT *,
-		ROW_NUMBER() OVER(
-		PARTITION BY ParcelID, PropertyAddress, SaleDate, SalePrice, LegalReference ORDER BY ParcelID) AS RowNumber
-	FROM Portfolio_Project..NashvilleHousing
+  SELECT *,
+    ROW_NUMBER() OVER(PARTITION BY ParcelID, PropertyAddress, SaleDate, SalePrice, LegalReference ORDER BY ParcelID) AS RowNumber
+  FROM Portfolio_Project..NashvilleHousing
 )
 DELETE
 FROM RowNumCTE
